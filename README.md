@@ -46,11 +46,13 @@ Consiste en calcular la solución paso a paso a partir de una condición inicial
 \$$y(k) = \frac{1}{3}[-2y(k-1) + y(k-2) + 2u(k-1) - 3u(k-2)]$$
 
 * Condiciones iniciales:
-  \$$y(-2) = 1, \, y(-1) = -2$$
-  \$$u(k) = \begin{cases}
+$$y(-2) = 1, \, y(-1) = -2$$
+
+$$u(k) = \begin{cases}
   1 & \text{si } k = 0, 1, 2, 3, \ldots \\
   0 & \text{si } k < 0 
   \end{cases}$$
+
 
 * Cálculos:
   * \( k = 0 \)
